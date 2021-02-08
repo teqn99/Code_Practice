@@ -7,7 +7,6 @@
 
 # bin(number)
 # -> 전달받은 number의 값(integer 혹은 long integer 자료형)을 이진수(bin) 문자열로 돌려준다.
-
 bin(10)
 # 결과: '0b1010'
 bin(42)
@@ -17,7 +16,6 @@ bin(42)
 
 # oct(number)
 # -> 전달받은 number의 값(integer 혹은 long integer 자료형)을 8진수(oct) 문자열로 돌려준다.
-
 oct(42)
 # 결과: '0o52'
 
@@ -25,7 +23,6 @@ oct(42)
 
 # hex(number)
 # -> 전달받은 number의 값(integer 혹은 long integer 자료형)을 16진수(hex) 문자열로 돌려준다.
-
 hex(42)
 # 결과: '0x2a'
 
