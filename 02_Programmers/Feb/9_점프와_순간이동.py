@@ -8,9 +8,7 @@ def solution(n):
             n -= 1    # K칸(1칸) 이동
             answer += 1
 
-    if n == 3:
-        answer += 2    # 3칸의 경우의 결과값
-    elif n == 2 or n == 1:
+    if n == 2 or n == 1:
         answer += 1    # 1칸 또는 2칸의 경우의 결과값
 
     return answer
